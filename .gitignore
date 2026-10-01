@@ -1,0 +1,7 @@
+/Resources/
+/devtree/backend/node_modules/
+/devtree/backend/package-lock.json
+/devtree/backend/dist
+/devtree/backend/.env
+/devtree/frontend/node_modules
+/devtree/frontend/package-lock.json
