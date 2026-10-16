@@ -10,7 +10,7 @@ declare global {
     }
 }
 
-export const authenticated = async(req: Request, res: Response, next: NextFunction) => {
+export const authenticated = async (req: Request, res: Response, next: NextFunction) => {
     const bearer = req.headers.authorization;
     if (!bearer) {
         const error = new Error('Usuario no autorizado');

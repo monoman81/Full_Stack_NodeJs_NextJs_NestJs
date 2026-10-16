@@ -31,6 +31,7 @@ export const createAccount = async (req: Request, res: Response)=> {
 
 export const login = async (req: Request, res: Response) => {
     const {email, password} = req.body;
+    console.log(req.body);
     const user = await User.findOne({email});
     if (!user) {
         const error = new Error("Usuario no existe");

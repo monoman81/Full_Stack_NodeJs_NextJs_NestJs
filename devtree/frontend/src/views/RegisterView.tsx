@@ -24,6 +24,7 @@ export default function RegisterView() {
 
     const handleRegister = async (formData: RegisterForm) => {
         try {
+            console.log(formData);
             const {data} = await api.post('/auth/register', formData);
             toast.success(data);
             reset();

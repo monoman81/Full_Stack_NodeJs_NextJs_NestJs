@@ -5,3 +5,4 @@
 /devtree/backend/.env
 /devtree/frontend/node_modules
 /devtree/frontend/package-lock.json
+/devtree/frontend/.env
